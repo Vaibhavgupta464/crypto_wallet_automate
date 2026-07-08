@@ -1,0 +1,20 @@
+{
+  "name": "crypto-wallet-script",
+  "version": "1.0.0",
+  "description": "Script to create 100 wallets, distribute Sepolia ETH, and buy tokens",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate-wallets": "node scripts/generateWallets.js",
+    "distribute-eth": "node scripts/distributeETH.js",
+    "buy-tokens": "node scripts/buyTokens.js",
+    "full-flow": "node scripts/fullFlow.js"
+  },
+  "keywords": ["ethereum", "wallet", "sepolia", "dex"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "dotenv": "^16.3.1"
+  }
+}
